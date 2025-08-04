@@ -1,12 +1,32 @@
-# React + Vite
+# 📝 Todo Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Todo Manager App** built with **React**, **Vite**, and **Redux Toolkit (RTK)**. This app allows you to manage your daily tasks with full **CRUD functionality** and **persistent Each todo is uniquely identified using `nanoid`.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## Expanding the ESLint configuration
+- ⚛️ [React](https://reactjs.org/) – Frontend library
+- ⚡ [Vite](https://vitejs.dev/) – Lightning-fast build tool
+- 🛠️ [Redux Toolkit (RTK)](https://redux-toolkit.js.org/) – State management
+- 🆔 [nanoid](https://github.com/ai/nanoid) – Unique ID generator
+- 🎣 React Hooks (`useSelector`, `useDispatch`, `useEffect`, `useState`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+### ✅ CRUD Functionality
+- Add new todos with input validation
+- Edit existing todos
+- Delete todos with confirmation
+
+### 🧠 State Management
+- Uses Redux Toolkit with `createSlice`
+- Centralized, maintainable state logic
+- `nanoid` used to generate unique IDs for each todo
+
+### 📱 User Experience
+- Clean and responsive design
+- Fast updates with Redux
+- Keyboard-friendly controls
