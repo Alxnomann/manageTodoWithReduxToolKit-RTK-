@@ -1,3 +1,5 @@
+<img width="1351" height="591" alt="ManageTodo" src="https://github.com/user-attachments/assets/39aad713-4d9b-4dd7-9d14-c1f36e3a347c" />
+
 # 📝 Todo Manager
 
 A modern **Todo Manager App** built with **React**, **Vite**, and **Redux Toolkit (RTK)**. This app allows you to manage your daily tasks with full **CRUD functionality** and **persistent Each todo is uniquely identified using `nanoid`.
